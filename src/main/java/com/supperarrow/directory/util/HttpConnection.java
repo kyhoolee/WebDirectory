@@ -45,7 +45,8 @@ public class HttpConnection {
 	public static int postExample() {
 		HttpConnection http = new HttpConnection();
 		long time = CommonUtil.time() % 10000;
-		String url = "http://5play.me:8892/WebDirectory-0.0.1-SNAPSHOT/directory/football_video";
+		String url = "https://grabyo.com/ws/shares/g6ZkGkUOjZo/event";
+				//"http://5play.me:8892/WebDirectory-0.0.1-SNAPSHOT/directory/football_video";
 		String body = "{\"cid\":90948, \"start\":0, \"end\":1}"; 
 				//"{\"os\":\"android\" , \"appid\":\"xocdia\" , \"did\":\"" + time + "\" }";
 		try {

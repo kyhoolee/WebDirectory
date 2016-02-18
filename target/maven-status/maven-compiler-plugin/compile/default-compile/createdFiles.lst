@@ -19,3 +19,4 @@ com/supperarrow/directory/mysql/Article.class
 com/supperarrow/directory/util/CommonUtil.class
 com/supperarrow/directory/api/ConfigAPI.class
 com/supperarrow/directory/BrowserResource.class
+com/supperarrow/directory/api/GrabyoVideoUtils.class

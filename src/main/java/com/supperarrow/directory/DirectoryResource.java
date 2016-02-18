@@ -17,6 +17,7 @@ import org.json.JSONObject;
 
 import com.supperarrow.directory.api.ConfigAPI;
 import com.supperarrow.directory.api.DirectoryAPI;
+import com.supperarrow.directory.api.GrabyoVideoUtils;
 import com.supperarrow.directory.api.MeCloudVideoUtils;
 import com.supperarrow.directory.api.VimeoVideoUtils;
 import com.supperarrow.directory.mysql.Article;
@@ -67,6 +68,20 @@ public class DirectoryResource {
 			@Context HttpServletRequest req) {
 
 		String data = MeCloudVideoUtils.getVideoMecloud(videoUrl, referer);
+		return Response.ok(data).header("Access-Control-Allow-Origin", "*")
+				.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS").build();
+	}
+	
+	
+	@Path("/grabyo_video")
+	@GET
+	@Produces("text/plain;charset=utf-8")
+	public Response getGrabyoVideo(
+			@QueryParam("videoUrl") String videoUrl,
+			@QueryParam("referer") String referer,
+			@Context HttpServletRequest req) {
+
+		String data = GrabyoVideoUtils.getGrabyoSource("https://grabyo.com/video.jsp?shareId=" + videoUrl, referer);
 		return Response.ok(data).header("Access-Control-Allow-Origin", "*")
 				.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS").build();
 	}
