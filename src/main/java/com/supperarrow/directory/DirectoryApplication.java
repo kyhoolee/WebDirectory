@@ -11,8 +11,9 @@ public class DirectoryApplication extends Application {
 	private Set<Class<?>> empty = new HashSet<Class<?>>();
 
 	public DirectoryApplication() {
-		singletons.add(new DirectoryResource());
-		singletons.add(new BrowserResource());
+		//singletons.add(new DirectoryResource());
+		//singletons.add(new BrowserResource());
+		singletons.add(new NewsResource());
 	}
 
 	@Override

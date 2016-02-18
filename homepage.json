@@ -1,0 +1,522 @@
+{
+	"enable": true,
+    "web": [
+        {
+            "title": "Zing Mp3",
+            "url": "http://m.mp3.zing.vn/",
+            "cover": "http://128.199.148.119/static/bro/mp3.zing.vn-1372407479.png"
+        },
+        {
+            "title": "Tải Nhạc",
+            "url": "http://chiasenhac.com/",
+            "cover": "http://128.199.148.119/static/bro/chiasenhac.jpg"
+        },
+        {
+            "title": "Nhaccuatui",
+            "url": "http://m.nhaccuatui.com/",
+            "cover": "http://128.199.148.119/static/bro/nhaccuatui.png"
+        },
+        {
+            "title": "Tải Youtube",
+            "url": "http://m.youtube.com",
+            "cover": "http://128.199.148.119/static/bro/youtube.com-1381205141.png"
+        },
+        {
+            "title": "Người Lớn",
+            "url": "https://www.viki.com/",
+            "cover": "http://128.199.148.119/static/bro/vimeo.png"
+        },
+        {
+            "title": "Truyền Hình",
+            "url": "http://xemphimon.com/",
+            "cover": "http://128.199.148.119/static/bro/dailymotion.png"
+        },
+        {
+            "title": "Facebook",
+            "url": "http://m.facebook.com",
+            "cover": "http://128.199.148.119/static/bro/facebook.com-1381205514.png"
+        },
+		{
+            "title": "Nhạc Sàn",
+            "url": "http://soundcloud.com",
+            "cover": "http://128.199.148.119/static/bro/soundcloud.png"
+        },
+        {
+            "title": "Xem TV",
+            "url": "http://tv.zing.vn",
+            "cover": "http://128.199.148.119/static/bro/tv.zing.vn-1381396723.png"
+        },
+        {
+            "title": "Dantri",
+            "url": "http://dantri.com.vn",
+            "cover": "http://128.199.148.119/static/bro/dantri.com.vn-1381205614.png"
+        },
+	{
+            "title": "Phim hot",
+            "url": "http://www.phimmoi.net/",
+            "cover": "http://128.199.148.119/static/bro/www.123phim.vn-1373438712.png"
+        },
+        {
+            "url": "http://24h.com.vn",
+            "title": "24h",
+            "cover": "http://1.stc.laban.vn/largeicons/24h.com.vn-1381204839.png"
+        }
+    ],
+    "category": [
+        {
+            "title": " Đọc báo",
+            "cover": "",
+            "topicList": [
+                {
+                    "title": "Tin nhanh",
+                    "siteList": [
+                        {
+                            "url": "http://24h.com.vn",
+                            "title": "24h",
+                            "cover": "http://1.stc.laban.vn/largeicons/24h.com.vn-1381204839.png"
+                        },
+                        {
+                            "url": "http://kenh14.vn/",
+                            "title": "Kênh 14",
+                            "cover": "http://4.stc.laban.vn/largeicons/kenh14.vn-1354607660.png"
+                        },
+                        {
+                            "url": "http://vnexpress.net/",
+                            "title": "VnExpress",
+                            "cover": "http://4.stc.laban.vn/largeicons/vnexpress.net-1381205280.png"
+                        },
+                        {
+                            "url": "http://dantri.com.vn/",
+                            "title": "Dân trí",
+                            "cover": "http://5.stc.laban.vn/largeicons/dantri.com.vn-1381205614.png"
+                        },
+                        {
+                            "url": "http://vietnamnet.vn/",
+                            "title": "Vietnamnet",
+                            "cover": "http://3.stc.laban.vn/largeicons/vietnamnet.vn-1396429657.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tin tổng hợp",
+                    "siteList": [
+                        {
+                            "url": "http://www.baomoi.com/",
+                            "title": "Báo mới",
+                            "cover": "http://4.stc.laban.vn/largeicons/baomoi.com-1441858497.jpg"
+                        },
+                        {
+                            "url": "http://vietbao.vn/",
+                            "title": "Việt báo",
+                            "cover": "http://1.stc.laban.vn/largeicons/vietbao.vn-1354527062.png"
+                        },
+                        {
+                            "url": "http://vnexpress.net/",
+                            "title": "Tin247",
+                            "cover": "http://4.stc.laban.vn/largeicons/tin247.com-1354781034.png"
+                        },
+                        {
+                            "url": "http://baohay.vn/",
+                            "title": "Baohay.vn",
+                            "cover": "http://1.stc.laban.vn/largeicons/baohay.vn-1357725650.png"
+                        },
+                        {
+                            "url": "http://docbao.vn/",
+                            "title": "Đọcbáo.vn",
+                            "cover": "http://2.stc.laban.vn/largeicons/docbao.vn-1354768076.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Nghe nhạc",
+            "cover": "",
+            "topicList": [
+                {
+                    "title": "Xem phim",
+                    "siteList": [
+                        {
+                            "url": "http://mp3.zing.vn/",
+                            "title": "Zing Mp3",
+                            "cover": "http://4.stc.laban.vn/largeicons/mp3.zing.vn-1372407479.png"
+                        },
+                        {
+                            "url": "http://nhaccuatui.com/",
+                            "title": "NhacCuaTui",
+                            "cover": "http://1.stc.laban.vn/largeicons/nhaccuatui.com-1381205535.png"
+                        },
+                        {
+                            "url": "http://nhacso.net/",
+                            "title": "NhacSo.net",
+                            "cover": "http://5.stc.laban.vn/largeicons/nhacso.net-1396842168.png"
+                        },
+                        {
+                            "url": "http://www.keeng.vn/",
+                            "title": "Keeng.vn",
+                            "cover": "http://1.stc.laban.vn/largeicons/www.keeng.vn-1411978195.png"
+                        },
+                        {
+                            "url": "http://nhac.vui.vn/",
+                            "title": "Nhac.vui.vn",
+                            "cover": "http://3.stc.laban.vn/largeicons/hcm.nhac.vui.vn-1381205248.png"
+                        },
+                        {
+                            "url": "http://dj.very.vn/",
+                            "title": "Nhạc sàn - DJ",
+                            "cover": "http://4.stc.laban.vn/largeicons/dj.very.vn-1358855041.png"
+                        },
+                        {
+                            "url": "https://soundcloud.com/",
+                            "title": "SoundCloud",
+                            "cover": "http://2.stc.laban.vn/largeicons/soundcloud.com-1396435186.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Phim - Clip",
+            "cover": "",
+            "topicList": [
+                {
+                    "title": "Xem phim",
+                    "siteList": [
+                        {
+                            "url": "http://movies.hdviet.com/?utm_source=laban",
+                            "title": "HD Việt",
+                            "cover": "http://3.stc.laban.vn/largeicons/movies.hdviet.com-1410489013.png"
+                        },
+                        {
+                            "url": "http://www.ssphim.com/",
+                            "title": "SSPhim",
+                            "cover": "http://3.stc.laban.vn/largeicons/www.ssphim.com-1355325795.png"
+                        },
+                        {
+                            "url": "http://laban.vn/phim-le",
+                            "title": "Phim Hay",
+                            "cover": "http://5.stc.laban.vn/largeicons/laban.vn-1416479865.png"
+                        },
+                        {
+                            "url": "http://hdonline.vn/",
+                            "title": "HDonline.vn",
+                            "cover": "http://4.stc.laban.vn/largeicons/hdonline.vn-1411616946.png"
+                        },
+                        {
+                            "url": "http://phim3s.net/",
+                            "title": "Phim3s.net",
+                            "cover": "http://4.stc.laban.vn/largeicons/phim3s.net-1411379640.png"
+                        },
+                        {
+                            "url": "http://www.phimmoi.net/",
+                            "title": "Phimmoi.net",
+                            "cover": "http://2.stc.laban.vn/largeicons/www.phimmoi.net-1396432684.png"
+                        },
+                        {
+                            "url": "http://pubvn.tv/phim/home.html",
+                            "title": "PUBVN",
+                            "cover": "http://1.stc.laban.vn/largeicons/www.pub.vn-1354784078.png"
+                        },
+                        {
+                            "url": "http://www.hayhaytv.vn/",
+                            "title": "HayhayTV",
+                            "cover": "http://3.stc.laban.vn/largeicons/www.hayhaytv.vn-1361503324.png"
+                        },
+                        {
+                            "url": "http://vivo.vn/",
+                            "title": "Vivo.vn",
+                            "cover": "http://5.stc.laban.vn/largeicons/vivo.go.vn-1358924245.png"
+                        },
+                        {
+                            "url": "http://phim7.com/",
+                            "title": "Phim7.com",
+                            "cover": "http://2.stc.laban.vn/largeicons/phimvang.com-1354621932.png"
+                        },
+                        {
+                            "url": "http://laban.vn/phim-bo",
+                            "title": "Phim Bộ",
+                            "cover": "http://5.stc.laban.vn/largeicons/laban.vn-1416480964.png"
+                        },
+                        {
+                            "url": "http://fptplay.net/",
+                            "title": "FPT PLAY",
+                            "cover": "http://1.stc.laban.vn/largeicons/fptplay.net-1433320202.jpg"
+                        },
+                        {
+                            "url": "http://laban.vn/tim-kiem-phim/Ch%C3%A2u+Tinh+Tr%C3%AC",
+                            "title": "Hài Châu Tinh Trì",
+                            "cover": "http://4.stc.laban.vn/largeicons/laban.vn-1437730786.jpg"
+                        }
+                    ]
+                },
+                {
+                    "title": "Video - Clip",
+                    "siteList": [
+                        {
+                            "url": "https://www.youtube.com/",
+                            "title": "Youtube",
+                            "cover": "http://3.stc.laban.vn/largeicons/youtube.com-1381205141.png"
+                        },
+                        {
+                            "url": "http://www.youtube.com/playlist?list=PLB2998P97zLn02ADvTk6xw-XCmxp2Um41",
+                            "title": "Phở Team",
+                            "cover": "http://4.stc.laban.vn/largeicons/www.youtube.com-1397622990.png"
+                        },
+                        {
+                            "url": "http://tv.zing.vn/",
+                            "title": "Zing TV",
+                            "cover": "http://3.stc.laban.vn/largeicons/tv.zing.vn-1381396723.png"
+                        },
+                        {
+                            "url": "http://www.youtube.com/user/bbtran21211",
+                            "title": "BB&BG",
+                            "cover": "http://3.stc.laban.vn/largeicons/www.youtube.com-1397709619.png"
+                        },
+                        {
+                            "url": "http://www.youtube.com/user/damtivi",
+                            "title": "DAM tv",
+                            "cover": "http://2.stc.laban.vn/largeicons/www.youtube.com-1359371811.png"
+                        },
+                        {
+                            "url": "http://clip.vn/",
+                            "title": "Clip.vn",
+                            "cover": "http://3.stc.laban.vn/largeicons/clip.vn-1354180402.png"
+                        },
+                        {
+                            "url": "http://www.dailymotion.com/vn",
+                            "title": "Dailymotion",
+                            "cover": "http://1.stc.laban.vn/largeicons/dailymotion.com-1354782986.png"
+                        },
+                        {
+                            "url": "http://www1.tvnet.gov.vn/",
+                            "title": "VTC THTT",
+                            "cover": "http://1.stc.laban.vn/largeicons/vtc.com.vn-1354590257.png"
+                        },
+                        {
+                            "url": "https://www.youtube.com/user/quynhanhh212",
+                            "title": "Quỳnh Anh Shyn",
+                            "cover": "http://5.stc.laban.vn/largeicons/www.youtube.com-1422590279.png"
+                        },
+                        {
+                            "url": "http://titoradio.net/radio/",
+                            "title": "Tito Radio",
+                            "cover": "http://1.stc.laban.vn/largeicons/titoradio.net-1422590621.png"
+                        },
+                        {
+                            "url": "https://www.youtube.com/channel/UCnhd74YZPBNWyLOQXT29pkg",
+                            "title": "Phượt Radio",
+                            "cover": "http://2.stc.laban.vn/largeicons/www.youtube.com-1422590962.png"
+                        },
+                        {
+                            "url": "https://www.youtube.com/user/trangdentv",
+                            "title": "Trắng TV",
+                            "cover": "http://2.stc.laban.vn/largeicons/www.youtube.com-1422591325.png"
+                        },
+                        {
+                            "url": "https://www.youtube.com/user/xuanvinh1612",
+                            "title": "Vinh Vật Vờ",
+                            "cover": "http://5.stc.laban.vn/largeicons/www.youtube.com-1422592399.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Thể thao",
+            "cover": "",
+            "topicList": [
+                {
+                    "title": "Xem bóng đá trực tuyến",
+                    "siteList": [
+                        {
+                            "url": "http://tructiepbongda.com/",
+                            "title": "Trực tiếp bóng đá",
+                            "cover": "http://2.stc.laban.vn/largeicons/tructiepbongda.com-1363178659.png"
+                        },
+                        {
+                            "url": "http://bongdatv.net/",
+                            "title": "Bongdatv",
+                            "cover": "http://5.stc.laban.vn/largeicons/bongdatv.net-1370421496.png"
+                        },
+                        {
+                            "url": "http://topbongda.com/",
+                            "title": "Top Bóng Đá",
+                            "cover": "http://4.stc.laban.vn/largeicons/topbongda.com-1375172713.png"
+                        },
+                        {
+                            "url": "http://bongdatructuyen.info/",
+                            "title": "Bongdatructuyen.info",
+                            "cover": "http://4.stc.laban.vn/largeicons/bongdatructuyen.info-1414574948.png"
+                        },
+                        {
+                            "url": "http://www.24h.com.vn/video-ban-thang-c297.html",
+                            "title": "Clip bàn thắng",
+                            "cover": "http://1.stc.laban.vn/largeicons/hn.24h.com.vn-1363195893.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tin bóng đá",
+                    "siteList": [
+                        {
+                            "url": "http://bongdaplus.vn/",
+                            "title": "Bóng đá +",
+                            "cover": "http://3.stc.laban.vn/largeicons/bongdaplus.vn-1398227180.png"
+                        },
+                        {
+                            "url": "http://bongda24h.vn/",
+                            "title": "Bóng đá 24h",
+                            "cover": "http://1.stc.laban.vn/largeicons/bongda24h.vn-1354416798.png"
+                        },
+                        {
+                            "url": "http://www.bongda365.com.vn/",
+                            "title": "Bóng đá",
+                            "cover": "http://5.stc.laban.vn/largeicons/www.bongda.com.vn-1354611194.png"
+                        },
+                        {
+                            "url": "http://livescore.com/",
+                            "title": "LiveScore",
+                            "cover": "http://1.stc.laban.vn/largeicons/livescore.com-1365656982.png"
+                        },
+                        {
+                            "url": "http://ibongda.vn/",
+                            "title": "ibongda",
+                            "cover": "http://5.stc.laban.vn/largeicons/ibongda.vn-1414574752.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Showbiz",
+            "cover": "",
+            "topicList": [
+                {
+                    "title": "Báo điện tử",
+                    "siteList": [
+                        {
+                            "url": "http://ngoisao.net/",
+                            "title": "Ngôi sao",
+                            "cover": "http://4.stc.laban.vn/largeicons/ngoisao.net-1354607888.png"
+                        },
+                        {
+                            "url": "http://kenh14.vn/",
+                            "title": "Kênh 14",
+                            "cover": "http://3.stc.laban.vn/largeicons/kenh14.vn-1354607660.png"
+                        },
+                        {
+                            "url": "http://2sao.vn/",
+                            "title": "2Sao",
+                            "cover": "http://1.stc.laban.vn/largeicons/2sao.vn-1428897010.jpg"
+                        },
+                        {
+                            "url": "http://www.yan.vn/",
+                            "title": "Yan.vn",
+                            "cover": "http://1.stc.laban.vn/largeicons/www.yan.vn-1396429368.png"
+                        },
+                        {
+                            "url": "http://www.vietgiaitri.com/",
+                            "title": "VietGiaiTri.com",
+                            "cover": "http://4.stc.laban.vn/largeicons/vietgiaitri.com-1354528006.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "Sự kiện giải trí",
+                    "siteList": [
+                        {
+                            "url": "http://vntic.vn/",
+                            "title": "VnTic - Vé sự kiện",
+                            "cover": "http://4.stc.laban.vn/largeicons/vntic.vn-1363176687.png"
+                        },
+                        {
+                            "url": "http://liveshowhay.com/",
+                            "title": "Liveshowhay.com",
+                            "cover": "http://2.stc.laban.vn/largeicons/liveshowhay.com-1366621744.png"
+                        },
+                        {
+                            "url": "http://ticbox.vn/",
+                            "title": "Ticbox – Hộp vé",
+                            "cover": "http://2.stc.laban.vn/largeicons/ticbox.vn-1368436302.png"
+                        },
+                        {
+                            "url": "http://sukienhay.com/",
+                            "title": "Sukienhay.com",
+                            "cover": "http://1.stc.laban.vn/largeicons/sukienhay.com-1380272210.png"
+                        },
+                        {
+                            "url": "http://phimchieurap.vn/",
+                            "title": "Phim chiếu rạp",
+                            "cover": "http://5.stc.laban.vn/largeicons/phimchieurap.vn-1366857275.png"
+                        }
+                    ]
+                },
+                {
+                    "title": "Game show đang HOT",
+                    "siteList": [
+                        {
+                            "url": "https://www.youtube.com/channel/UC2ZC2Kfy4zs6zbeKC2or2DQ",
+                            "title": "Gương Mặt Thân Quen Nhí 2015",
+                            "cover": "http://5.stc.laban.vn/largeicons/www.youtube.com-1445860361.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/user/ONGIOICAUDAYROIVTV3/featured",
+                            "title": "Ơn giời cậu đây rồi 2015",
+                            "cover": "http://1.stc.laban.vn/largeicons/www.youtube.com-1446433966.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/channel/UCCONQdW98HmR8hipzpbZQxQ",
+                            "title": "Game shows Sasuke Việt Nam",
+                            "cover": "http://1.stc.laban.vn/largeicons/tv.zing.vn-1436432300.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/channel/UCWbIyyRQoUEEwz-dswqWxww",
+                            "title": "Bước Nhảy Ngàn Cân",
+                            "cover": "http://5.stc.laban.vn/largeicons/tv.zing.vn-1444204951.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/channel/UCUvXnUDkgCZE6SDvsGSEpVw",
+                            "title": "Hoán đổi",
+                            "cover": "http://3.stc.laban.vn/largeicons/www.youtube.com-1445849834.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/channel/UC1Rkr2Nxq_MPAaP8JlEpWxg",
+                            "title": "Bố Ơi, Mình Đi Đâu Thế ",
+                            "cover": "http://4.stc.laban.vn/largeicons/tv.zing.vn-1414739533.png"
+                        },
+                        {
+                            "url": "http://tv.zing.vn/danh-hai-dat-viet",
+                            "title": "Danh hài Đất Việt",
+                            "cover": "http://1.stc.laban.vn/largeicons/tv.zing.vn-1437447614.jpg"
+                        },
+                        {
+                            "url": "http://tv.zing.vn/masterchef-viet-nam-2015",
+                            "title": "Masterchef Việt Nam 2015",
+                            "cover": "http://1.stc.laban.vn/largeicons/tv.zing.vn-1442389181.jpg"
+                        },
+                        {
+                            "url": "http://tv.zing.vn/ca-si-giau-mat",
+                            "title": "TV Show Ca Sĩ Giấu Mặt",
+                            "cover": "http://2.stc.laban.vn/icons/tv.zing.vn-1445934091.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/channel/UCwmurIyZ6FHyVPtKppe_2_A",
+                            "title": "TV Show Thách Thức Danh Hài Mùa 2",
+                            "cover": "http://3.stc.laban.vn/largeicons/www.youtube.com-1447237810.jpg"
+                        },
+                        {
+                            "url": "http://tv.zing.vn/cuoi-xuyen-viet-phien-ban-nghe-si",
+                            "title": "TW Show Cười Xuyên Việt",
+                            "cover": "http://3.stc.laban.vn/largeicons/tv.zing.vn-1447819242.jpg"
+                        },
+                        {
+                            "url": "https://www.youtube.com/playlist?list=PLy_TpcUT2LZsQWK_kiY_toZ2kM-C_4nbs",
+                            "title": "Đàn ông phải thế",
+                            "cover": "http://4.stc.laban.vn/largeicons/www.youtube.com-1447926645.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

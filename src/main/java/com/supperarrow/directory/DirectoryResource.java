@@ -1,24 +1,87 @@
 package com.supperarrow.directory;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 
 import org.apache.log4j.Logger;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.supperarrow.directory.api.ConfigAPI;
 import com.supperarrow.directory.api.DirectoryAPI;
+import com.supperarrow.directory.api.MeCloudVideoUtils;
+import com.supperarrow.directory.api.VimeoVideoUtils;
+import com.supperarrow.directory.mysql.Article;
+import com.supperarrow.directory.mysql.DbUtils;
 import com.supperarrow.directory.util.LoggerUtil;
 
 @Path("/directory")
 public class DirectoryResource {
 	public static Logger logger = LoggerUtil.getDailyLogger("DirectoryResource_log");
 
+	public DbUtils _dbUtils;
 	public DirectoryResource() {
+		_dbUtils = new DbUtils();
+	}
+	
+	@Path("/football_video")
+	@POST
+	@Produces("text/plain;charset=utf-8")
+	public Response getFootballNews(String info, @Context HttpServletRequest req) {
+		long cid = 1795;
+		int start = 0;
+		int end = 10;
+		try {
+			JSONObject jsonObject = new JSONObject(info);
+
+
+			cid = jsonObject.getInt("cid");
+			start = jsonObject.getInt("start");
+			end = jsonObject.getInt("end");
+			logger.info("getfootballnews: " + info);
+		} catch (Exception e) { 
+			logger.error(e);
+		}
+		
+		List<Article> data = _dbUtils.getArticleFromDB(cid, start, end);
+		logger.info(data.size());
+		JSONArray res = new JSONArray(data);
+		return Response.ok(res.toString()).header("Access-Control-Allow-Origin", "*")
+				.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS").build();
+	}
+	
+	@Path("/mecloud_video")
+	@GET
+	@Produces("text/plain;charset=utf-8")
+	public Response getMecloudVideo(
+			@QueryParam("videoUrl") String videoUrl,
+			@QueryParam("referer") String referer,
+			@Context HttpServletRequest req) {
+
+		String data = MeCloudVideoUtils.getVideoMecloud(videoUrl, referer);
+		return Response.ok(data).header("Access-Control-Allow-Origin", "*")
+				.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS").build();
+	}
+	
+	@Path("/vimeo_video")
+	@GET
+	@Produces("text/plain;charset=utf-8")
+	public Response getVimeoVideo(
+			@QueryParam("videoUrl") String videoUrl,
+			@QueryParam("referer") String referer,
+			@Context HttpServletRequest req) {
+
+		String data = VimeoVideoUtils.getVimeoSource(videoUrl, referer);
+		return Response.ok(data).header("Access-Control-Allow-Origin", "*")
+				.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS").build();
 	}
 
 	@Path("/top_sites")
@@ -43,6 +106,8 @@ public class DirectoryResource {
 		return Response.ok(data).header("Access-Control-Allow-Origin", "*")
 				.header("Access-Control-Allow-Methods", "PUT, GET, POST, DELETE, OPTIONS").build();
 	}
+	
+	
 
 	@Path("/top_news")
 	@POST

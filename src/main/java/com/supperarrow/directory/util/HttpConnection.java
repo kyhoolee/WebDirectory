@@ -16,10 +16,12 @@ public class HttpConnection {
 	private static final String USER_AGENT = "Mozilla/5.0";
 
 	public static void main(String[] args) {
-		for(int i = 0 ; i < 5000 ; i ++) {
-			HttpThread thread = new HttpThread(i + "", 10);
-			thread.start();
-		}
+//		for(int i = 0 ; i < 5000 ; i ++) {
+//			HttpThread thread = new HttpThread(i + "", 10);
+//			thread.start();
+//		}
+		
+		postExample();
 		
 	}
 	
@@ -43,8 +45,9 @@ public class HttpConnection {
 	public static int postExample() {
 		HttpConnection http = new HttpConnection();
 		long time = CommonUtil.time() % 10000;
-		String url = "http://localhost:8085/adsservice-0.0.1-SNAPSHOT/getads/config";
-		String body = "{\"os\":\"android\" , \"appid\":\"xocdia\" , \"did\":\"" + time + "\" }";
+		String url = "http://5play.me:8892/WebDirectory-0.0.1-SNAPSHOT/directory/football_video";
+		String body = "{\"cid\":90948, \"start\":0, \"end\":1}"; 
+				//"{\"os\":\"android\" , \"appid\":\"xocdia\" , \"did\":\"" + time + "\" }";
 		try {
 			HttpResponse result = http.sendPost(url, body);
 			log.info(result);
@@ -107,7 +110,7 @@ public class HttpConnection {
 
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
+		System.out.println(url + " " + body);
 		//add request header
 		con.setRequestMethod("POST");
 		con.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
@@ -135,7 +138,7 @@ public class HttpConnection {
 		HttpResponse result = new HttpResponse();
 		result.code = code;
 		result.data = response.toString();
-		
+		System.out.println(result);
 		return result;
 
 	}

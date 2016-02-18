@@ -1,5 +1,8 @@
 package com.supperarrow.directory.util;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -68,8 +71,38 @@ public class CommonUtil {
 		return result;
 	}
 	
+	public static String readFile(String path) {
+		BufferedReader br = null;
+		String data = "";
+		try {
+
+			String line;
+
+			br = new BufferedReader(new FileReader(path));
+
+			
+			while ((line = br.readLine()) != null) {
+				//System.out.println(sCurrentLine);
+				data += line;
+			}
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (br != null)br.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+		
+		return data;
+	}
+	
+	
 	public static void main(String[] args) {
-		System.out.println(currentDayTime());
+		System.out.println(readFile("./homepage.json"));
+		
 	}
 
 
