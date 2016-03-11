@@ -1,4 +1,4 @@
-package com.supperarrow.directory.mysql;
+package com.supperarrow.directory.model;
 
 import java.util.Date;
 

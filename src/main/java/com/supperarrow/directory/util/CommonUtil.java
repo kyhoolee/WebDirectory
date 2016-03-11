@@ -101,8 +101,10 @@ public class CommonUtil {
 	
 	
 	public static void main(String[] args) {
-		System.out.println(readFile("./homepage.json"));
-		
+		//System.out.println(readFile("./homepage.json"));
+		long a = -13;
+		a = a ^ (-1L) + 1L;
+		System.out.println(a);
 	}
 
 

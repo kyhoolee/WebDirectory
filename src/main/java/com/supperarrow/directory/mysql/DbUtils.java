@@ -12,6 +12,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import com.supperarrow.directory.model.Article;
 import com.supperarrow.directory.util.LoggerUtil;
 
 public class DbUtils {

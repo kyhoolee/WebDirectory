@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.supperarrow.directory.mysql.Article;
+import com.supperarrow.directory.model.Article;
 import com.supperarrow.directory.mysql.DbUtils;
 import com.supperarrow.directory.util.LoggerUtil;
 

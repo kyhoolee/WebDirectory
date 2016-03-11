@@ -20,7 +20,7 @@ import com.supperarrow.directory.api.DirectoryAPI;
 import com.supperarrow.directory.api.GrabyoVideoUtils;
 import com.supperarrow.directory.api.MeCloudVideoUtils;
 import com.supperarrow.directory.api.VimeoVideoUtils;
-import com.supperarrow.directory.mysql.Article;
+import com.supperarrow.directory.model.Article;
 import com.supperarrow.directory.mysql.DbUtils;
 import com.supperarrow.directory.util.LoggerUtil;
 
